@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f2ef;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: white;
+  padding: 30px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.logo {
+  color: #8c939b;
+  font-weight: bold;
+}
+
+.img-logo {
+    width: 50px;
+    height: 50px;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+.subtitle {
+  font-size: 14px;
+}
+
+.subtitle a {
+  color: #0a66c2;
+  text-decoration: none;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.social {
+  background: white;
+}
+
+.primary {
+  background: #0a66c2;
+  color: white;
+  border: none;
+}
+
+.primary:hover {
+  background: #004182;
+}
+
+.divider {
+  text-align: center;
+  margin: 15px 0;
+  color: gray;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.password-box {
+  position: relative;
+}
+
+.password-box span {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  cursor: pointer;
+}
+
+.link {
+  display: block;
+  margin-top: 10px;
+  color: #0a66c2;
+  text-decoration: none;
+}
+
+.checkbox {
+  margin-top: 10px;
+  display: flex;
+
+}

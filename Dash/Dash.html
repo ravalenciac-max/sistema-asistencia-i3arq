@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/Dash/css/dash.css">
+        <script src="https://kit.fontawesome.com/7943b13e18.js" crossorigin="anonymous"></script>
+        <title>Ingreso</title>
+    </head>
+
+<body>
+    <header >
+        <div class="left">
+            <div class="menu-container">
+                <div class="menu" id="menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="rigth">
+
+        </div>
+    </header>
+        <section class="sidebar" id="sidebar">
+            <nav>
+                <ul>
+                    <a href="#">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Buscar</span>
+                    </a>
+                
+                    <a href="#">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <span>Proyectos</span>
+                    </a>
+                
+                    <a href="#">
+                        <i class="fa-solid fa-list-ol"></i>
+                        <span>Pendientes</span>
+                    </a>
+            
+                
+                    <a href="#">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <span>En Ejecucion</span>
+                    </a>
+                
+                    <a href="#">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <span>Proyectos</span>
+                    </a>
+                </ul>
+            </nav>
+        </section>
+
+   
+        <Section class="contenido">
+             
+                <!-- Estado de avance -->
+                <div class="card">
+                    <h1>891 Pantalla Gran Hall</h1>
+                    <h2>Estado de avance</h2>
+                    <canvas id="avanceChart"></canvas>
+                </div>
+
+                <!-- Gastos -->
+                <div class="card">
+                    <h2>Gastos</h2>
+                    <canvas id="gastosChart"></canvas>
+                </div>
+
+                <div>
+                    <!-- RDI -->
+                    <div class="card small">
+                        <h2>RDI</h2>
+                        <canvas id="rdiChart"></canvas>
+                    </div>
+
+                    <!-- PDC -->
+                    <div class="card small highlight">
+                        <h2>PDC</h2>
+                        <canvas id="pdcChart"></canvas>
+                    </div>     
+                </div>
+                
+
+                <!-- Panel gris -->
+                <div class="card empty"></div>
+        </Section>
+        <script src="/Dash/js/dash.js"></script>
+</body>
+</html>

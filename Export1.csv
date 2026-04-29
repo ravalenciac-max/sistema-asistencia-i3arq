@@ -1,0 +1,6 @@
+id,usuario_id,nombre_completo,correo,fecha_hora,ip,tipo_conexion,pais,region,ciudad,latitud,longitud
+1,1,,produccion5@i3arq.com,"2026-04-29 16:42:16",::1,OFICINA,Desconocido,Desconocido,Desconocido,NULL,NULL
+2,1,,produccion5@i3arq.com,"2026-04-29 16:42:37",::1,OFICINA,Desconocido,Desconocido,Desconocido,NULL,NULL
+3,1,,produccion5@i3arq.com,"2026-04-29 16:48:50",::1,OFICINA,Desconocido,Desconocido,Desconocido,NULL,NULL
+4,1,"Rudy Valencia Cunza",produccion5@i3arq.com,"2026-04-29 17:03:24",::1,OFICINA,Desconocido,Desconocido,Desconocido,NULL,NULL
+5,2,"CABALLERO LANDYRE, CARLOS ALONSO ",ccaballero@i3arq.com,"2026-04-29 17:08:29",::1,OFICINA,Desconocido,Desconocido,Desconocido,NULL,NULL

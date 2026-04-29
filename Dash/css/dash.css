@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+.dashboard {
+    padding: 20px;
+     margin-top: 0%;
+    display: flex;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #dcdcdc;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.small {
+    height: 300px;
+}
+
+.highlight {
+    background: linear-gradient(135deg, #b36ae2, #a45ad1);
+    color: white;
+}
+
+.empty {
+    height: 300px;
+    background: #cfcfcf;
+}
+
+/*NAVEGADOR*/
+header {
+    border: 2px solid red;
+    width: 100%;
+    z-index: 200;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.45rem 2rem 0.45rem 1.27rem;
+    border-bottom: 1px solid #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.menu-container{
+    border: 2px solid black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor:pointer
+}
+.menu {
+
+     width: 1.5rem;
+     height: 37%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+.menu.menu-toggle div:first-child{
+    width: 35%;
+    transform: rotate(35deg) translate(30%,160%);
+}
+
+.menu.menu-toggle div:last-child{
+    width: 35%;
+    transform: rotate(-35deg) translate(30%,-160%);
+    
+}
+.menu div{
+    width: 100%;
+    height: 0.10rem;
+    background-color: #838383;
+    transition: all 0.2s ease;
+}
+
+.left {
+    border: 2px solid rgb(9, 255, 0);
+    width: 100px;
+    height: 20px;
+}
+
+.rigth {
+    border: 2px solid rgb(0, 60, 255);
+    width: 100px;
+    height: 20px;
+
+}
+
+
+/*BARRA LATERAL*/
+.sidebar {
+    margin-top: 4rem;
+    position: fixed;
+    width: 4rem;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 1.1rem 0;
+    display: flex;
+    border: 2px solid red;
+    border-right: 1px solid var(--border-color);
+    overflow-y: auto;
+    
+}
+
+.sidebar.menu-toggle{
+    width: 15.85rem;
+
+}
+.sidebar a {
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.9rem 0.7rem;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #000000;
+}
+
+.sidebar a:hover{
+    background-color: #838383;
+}
+
+
+
+.contenido {
+    margin-top: 0%;
+    display: flex;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
