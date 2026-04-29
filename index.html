@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    <div class="container">
+          <form onsubmit="login(event)">
+            <div class="login-box">
+                <h1 class="logo"><img class="img-logo" src="/img/Logo1.png" alt="">I3ARQ</h1>
+                <h2>Iniciar sesión</h2>
+                <p class="subtitle">¿Problemas para iniciar? <a href="#">Comunicate con soporte</a></p>
+
+                <input type="email" id="correo" placeholder="Email o teléfono">
+                    <div class="password-box">
+                    <input type="password" id="password" placeholder="Contraseña">
+                    <span onclick="togglePassword()">👁</span>
+                    </div>
+
+                <a href="#" class="link">¿Has olvidado tu contraseña?</a>
+
+                    <div class="checkbox">
+                        <div class="column">
+                            <input type="checkbox" id="remember"> 
+                        </div >
+                        <label for="remember">Mantener sesión iniciada</label>
+                    </div>
+               
+                <button id="btnLogin" type="button" class="btn primary">Iniciar sesión </button> 
+          </form>
+       </div>
+    <script src="../Frontend/js/login.js"></script>
+    
+</body>
+</html>
